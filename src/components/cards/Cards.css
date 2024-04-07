@@ -1,0 +1,21 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    border: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    max-width: 240px;
+    text-align: center;
+    max-height: 240px;
+    padding: 24px;
+}
