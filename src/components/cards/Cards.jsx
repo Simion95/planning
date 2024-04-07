@@ -201,7 +201,7 @@ const Cards = () => {
         <div className='card-container'>
         
             {data.map((element) => (
-                <CardStructure title={element.title} price={element.price} description={element.description} image={element.image}  />
+                <CardStructure key={element.title} title={element.title} price={element.price} description={element.description} image={element.image}  />
             ))}
 
         </div>
